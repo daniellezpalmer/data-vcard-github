@@ -36,3 +36,10 @@ function basics(data){
              <dt>Website:</dt> <dd><a href="http://www.piilossa.com/"> ${data.blog}</a></dd></dl>`
   container1.innerHTML = string1;
 }
+
+function story(data) {
+  // let data = JSON.parse(this.responseText);
+  let string2 = '';
+  string2 += `<p>${data.bio}</p>`
+  container2.innerHTML = string2;
+}

@@ -43,3 +43,10 @@ function story(data) {
   string2 += `<p>${data.bio}</p>`
   container2.innerHTML = string2;
 }
+
+function image(data) {
+  // let data = JSON.parse(this.responseText);
+  let string3 = '';
+  string3 += `<img src="${data.avatar_url}">`
+  container3.innerHTML = string3;
+}

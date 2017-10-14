@@ -10,8 +10,10 @@ Use GitHub API to create a personal VCard.
 - [x] Create and link all files
 - [x] Add html body
 - [x] Add functionality (fetch)
-- [ ] Style page
+- [x] Style page
 
 ## Challenges
+- Making fetch calls
+- Making saw tooth banner
 
 ## Screenshot

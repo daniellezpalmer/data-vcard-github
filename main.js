@@ -25,3 +25,14 @@ function header(data){
   string += `<h1>${data.name}</h1>`
   container.innerHTML = string;
 }
+
+function basics(data){
+  // let data = JSON.parse(this.responseText);
+  let string1 = '';
+  string1 += `<dl><dt>Name:</dt> <dd>${data.name}</dd>
+             <dt>GitHub URL:</dt> <dd><a href="http://www.piilossa.com/"> ${data.html_url}</a></dd>
+             <dt>Email:</dt> <dd>daniellezpalmer@gmail.com</dd>
+             <dt>Company:</dt> <dd>${data.company}</dd>
+             <dt>Website:</dt> <dd><a href="http://www.piilossa.com/"> ${data.blog}</a></dd></dl>`
+  container1.innerHTML = string1;
+}

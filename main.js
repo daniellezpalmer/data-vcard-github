@@ -18,3 +18,10 @@ fetch('https://api.github.com/users/daniellezpalmer')
   story(data);
   image(data);
 })
+
+function header(data){
+  // let data = JSON.parse(this.responseText);
+  let string = '';
+  string += `<h1>${data.name}</h1>`
+  container.innerHTML = string;
+}
